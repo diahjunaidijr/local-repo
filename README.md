@@ -1,6 +1,6 @@
-# Demo Local Repo
+# Demo REMOTE REPO
 
-Repo di local
+Repo di local lewat perintah remote
 
 git init itu buat inisialisasi file kita ke git repository atau folder yang tadi ada di hidden
 
@@ -12,4 +12,7 @@ Caranya:
 4. terus cek dengan ketik perintah git remote -v
 5. git push -u origin master, -u fungsinya nanti buat mempermudah kita untuk shortcut perintha git push, jadi tanpa ketik origin master lagi
 *branch master baru dibuat lewat perintah git push karena sebelumnya repo nya kosong, kalo kita kasih centang untuk nambahin file README.md nanti branch default nya itu main
-6.
+6. nomor 5 itu create branch master, terus langkah buat sinkronisasi file itu sama seperti langkah nya clone:
+- harus git add . atau git add nama_file dulu biar file nya ke track, biar bisa di commit
+- lakuin commit
+- lakuin push
